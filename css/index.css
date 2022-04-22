@@ -1,0 +1,143 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  color: #fff !important;
+}
+
+.wbg {
+  background: #fff;
+  color: #000;
+}
+
+.bbg {
+  background: #1D1D3D;
+  color: #fff;
+}
+
+.wbg .title_border h4::before {
+  background-color: #1D1D3D
+}
+
+.wbg p {
+  color: #1D1D3D;
+}
+
+
+.bbg .title_border h4::before {
+  background-color: #fff
+}
+
+.benefit-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.btndoc {
+  max-width: 262px;
+  /* height: 52px; */
+  border: 2px solid #33CAD1;
+  border-radius: 10px;
+}
+
+.tableMiddle {
+  display: table;
+  /* margin-top: 10px; */
+}
+
+.tableMiddle .tableMiddleD {
+  display: table-cell;
+  vertical-align: middle
+}
+
+@media (max-width: 800px) {
+  .tableMiddle {
+    /* display: table; */
+    margin-top: 20px;
+  }
+
+  .brand-logos2 {
+    margin-bottom: 20px;
+  }
+
+  .hero-main .container {
+    margin-top: 60px;
+  }
+
+  .tab-section .nav-tabs .nav-item {
+    font-size: 14px;
+  }
+}
+
+.team-detils p {
+  margin-top: 10px;
+}
+
+.buttonshow img {
+  /* background: #33CAD1 url("images/play2.png") no-repeat scroll 0px 0px; */
+  /* height: 150px;
+  width: 150px; */
+  display: block;
+  -webkit-transition: all 450ms ease;
+  transition: all 450ms ease;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-size: 130px 130px;
+  background-position: center;
+}
+
+
+.buttonshow img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+pre code {
+  color: #fff;
+}
+
+.cp-cursor {
+  animation: cursorImg 1s infinite steps(1, start);
+}
+
+@keyframes cursorImg {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.storaged {
+  padding: 24px 21px;
+  min-height: 380px;
+  border: 2px solid #1D1D3D;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .storaged {
+    min-height: 1px;
+  }
+}
+
+.isdisplay {
+  display: inline;
+}
+
+.nodisplay {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .isdisplay {
+    display: none;
+  }
+
+  .nodisplay {
+    display: inline;
+  }
+}
